@@ -1,0 +1,98 @@
+1 hiunday
+
+Pagaminimo data2024-09
+Variklis1598 cm³, 215 AG (158kW)
+Kuro tipasBenzinas
+Kėbulo tipasVisureigis / Krosoveris
+Durų skaičius4/5
+Varantieji rataiPriekiniai
+Pavarų dėžėAutomatinė
+Klimato valdymasKlimato kontrolė
+SpalvaPilka / sidabrinė
+Ratlankių skersmuoR19
+Nuosava masė, kg1701
+Sėdimų vietų skaičius5
+Euro standartasEuro 6
+CO₂ emisija, g/km129 g/km
+
+2citroen
+
+Pagaminimo data2024
+Variklis113 AG (83kW)
+Kuro tipasElektra
+Įkraunamas
+Baterijos talpa, kWh44 kWh
+Elektra nuvažiuojamas atstumas320 km
+Kėbulo tipasHečbekas
+Durų skaičius4/5
+Varantieji rataiPriekiniai
+Klimato valdymasKlimato kontrolė
+SpalvaRaudona / vyšninė
+Ratlankių skersmuoR17
+Sėdimų vietų skaičius5
+
+3kia
+
+Pagaminimo data2024-05
+Variklis1598 cm³, 160 AG (118kW)
+Kuro tipasBenzinas / elektra
+Kėbulo tipasVisureigis / Krosoveris
+Durų skaičius4/5
+Varantieji rataiPriekiniai
+Pavarų dėžėAutomatinė
+Klimato valdymasKlimato kontrolė
+SpalvaJuoda
+Ratlankių skersmuoR19
+Sėdimų vietų skaičius5
+CO₂ emisija, g/km145 g/km
+Taršos mokestis40.47 €
+Taršos mokestis apskaičiuotas pa
+
+4opel
+
+Pagaminimo data2024
+Variklis101 AG (74kW)
+Kuro tipasBenzinas
+Kėbulo tipasHečbekas
+Durų skaičius4/5
+Pavarų dėžėAutomatinė
+Klimato valdymasOro kondicionierius
+Sėdimų vietų skaičius5
+CO₂ emisija, g/km122 g/km
+
+5vw
+
+Pagaminimo data2024
+Variklis231 AG (170kW)
+Kuro tipasDyzelinas
+Kėbulo tipasVisureigis / Krosoveris
+Durų skaičius4/5
+Pavarų dėžėAutomatinė
+Klimato valdymasKlimato kontrolė
+Sėdimų vietų skaičius5
+CO₂ emisija, g/km211 g/km
+
+6audi
+
+Pagaminimo data2024-07
+Variklis340 AG (250kW)
+Kuro tipasElektra
+Įkraunamas
+Baterijos talpa, kWh95 kWh
+Elektra nuvažiuojamas atstumas400 km
+Kėbulo tipasVisureigis / Krosoveris
+Durų skaičius4/5
+Klimato valdymasKlimato kontrolė
+SpalvaRuda / smėlio
+Kėbulo numeris (VIN)
+WAUZZZGE... Rodyti
+
+7gwm
+Pagaminimo data2024
+Variklis171 AG (126kW)
+Kuro tipasElektra
+Įkraunamas
+Kėbulo tipasHečbekas
+Durų skaičius4/5
+Klimato valdymasKlimato kontrolė
+Sėdimų vietų skaičius5
