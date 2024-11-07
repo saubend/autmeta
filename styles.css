@@ -275,7 +275,7 @@ body {
  }
 
  #footer{
-    background-color: rgb(11, 39, 11);
+    background-color: rgb(8, 34, 8);
  }
 
  .footer{
@@ -283,7 +283,7 @@ body {
     display: flex;
     justify-content:space-between;
     width: 100%;
-    max-width: 900px;
+    max-width: 1200px;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-left: auto;
@@ -292,6 +292,7 @@ body {
     
  }
  .footer .footerH3{
+    font-weight: 100;
     font-size: 26px;
     color:var(--color_1);
     padding-bottom: 20px;
@@ -301,8 +302,18 @@ body {
     padding-left: 5px;
     line-height: 30px;
     color: var(--color_3);
+    font-size: 0.9rem;
  }
  .footer .footerLi{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 5px;
+    line-height: 30px;
+    color: var(--color_3);
+    font-size: 0.9rem;
+ }
+ .footer .footerLi2{
+
     padding-left: 5px;
     line-height: 30px;
     color: var(--color_3);
