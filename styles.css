@@ -176,8 +176,8 @@ body {
     
 }
 .card-wrapper{
-    margin: 0 40px 35px;
-    padding: 20px 20px;
+    margin: 0 30px 35px;
+    padding: 10px 10px;
     overflow: hidden;
 }
 .card-list .card-item .card-link {
@@ -235,7 +235,8 @@ body {
 
  .card-wrapper .swiper-slide-button {
     color: var(--color_1);
-    margin-top: -40px;
+   margin-top: -40px;
+    
  }
  @media screen and (max-width: 768px){
     .card-wrapper{
@@ -244,6 +245,7 @@ body {
     .card-wrapper .swiper-slide-button{
         display: none;
     }
+   
  }
  .button {
     cursor: pointer;
@@ -272,26 +274,90 @@ body {
     box-shadow: 0px 10px 15px var(--color_1);
  }
 
+ #footer{
+    background-color: rgb(11, 39, 11);
+ }
+
  .footer{
+    
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     width: 100%;
-    background-color: var(--color_1);
-    padding: 100px;
+    max-width: 900px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+   margin-right: auto;
+
+    
+ }
+ .footer h3{
+    font-size: 26px;
+    color:var(--color_1);
+    padding-bottom: 20px;
+    
+ }
+ .footer p{
+    padding-left: 5px;
+    line-height: 30px;
+    color: var(--color_3);
+ }
+ .footer li{
+    padding-left: 5px;
+    line-height: 30px;
+    color: var(--color_3);
+    font-size: 0.9rem;
  }
  .footer .col1{
-   width: 33.3%;
-   padding-right: 15px;
-   padding-left: 15px;
+   width: 45%;
+   padding-left: 50px;
+   padding-right: 50px;
+   text-align: left;
  }
  .footer .col2{
-    width: 33.3%;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 27%;
+    list-style-type: circle;
+    padding-left: 50px;
+   padding-right: 20px;
+    
+    text-align: left;
   }
   .footer .col3{
-    width: 33.3%;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 33%;
+    padding-left: 50px;
+   padding-right: 20px;
+    
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 920px){
+    .footer{
+        display: block;
+        padding: 30px;
+        text-align: left;
+        
+        
+    }
+    .footer .col1 {
+        padding-left: 50px;
+        padding-top: 30px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+   .footer .col2 {
+    padding-left: 50px;
+        padding-top: 30px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .col3 {
+        padding-left: 50px;
+        padding-top: 30px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
   }
