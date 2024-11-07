@@ -339,7 +339,7 @@ body {
         
     }
     .footer .col1 {
-        padding-left: 30px;
+        padding-left: 0px;
         padding-top: 20px;
         width: 100%;
         margin-left: auto;
@@ -347,14 +347,14 @@ body {
 
     }
    .footer .col2 {
-    padding-left: 30px;
+    padding-left: 0px;
         padding-top: 20px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
     .footer .col3 {
-        padding-left: 30px;
+        padding-left: 0px;
         padding-top: 20px;
         width: 100%;
         margin-left: auto;
