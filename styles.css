@@ -145,7 +145,7 @@ body {
 }
 
 .spacer{
-    padding: 30px;
+    padding: 20px;
 }
 
 .apiemus p{
@@ -294,9 +294,21 @@ body {
  .footer .footerH3{
     font-weight: 100;
     font-size: 26px;
-    color:var(--color_1);
+    color:var(--color_3);
     padding-bottom: 20px;
     
+ }
+ #footer a{
+    color: var(--color_3);
+
+    border-bottom: 2px solid transparent;
+
+
+ }
+
+ #footer a:hover{
+    transition: 0.3s ease;
+    border-bottom: 1px solid;
  }
  .footer .footerP{
     padding-left: 5px;
