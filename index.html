@@ -15,10 +15,10 @@
         <nav>
             <img src="./images/autmeta1-240w.jpg" alt="" class="logo" height="50" width="200"/>
             <ul class="nav-list">     
-            <li><a href="#">PRADŽIA</a></li>
-            <li><a href="#">ARDOMI AUTOMOBILIAI</a></li>
-            <li><a href="#">DETALIŲ PAIEŠKA</a></li>
-            <li><a href="#apiemus">APIE MUS</a></li>
+            <li><a  href="#" class="nav-link">PRADŽIA</a></li>
+            <li><a href="#" class="nav-link">ARDOMI AUTOMOBILIAI</a></li>
+            <li><a href="#" class="nav-link">DETALIŲ PAIEŠKA</a></li>
+            <li><a href="#apiemus" class="nav-link">APIE MUS</a></li>
             </ul>
             <img src="./images/svg/material-symbols--menu.svg" alt="" class="menu-btn">
         </nav>
@@ -233,8 +233,19 @@
     <script>
         const navBtn = document.querySelector(".menu-btn");
         const navList = document.querySelector(".nav-list");
+        
         navBtn.addEventListener("click", function() {
             navList.classList.toggle("active");
+            
+            const navLink = document.querySelectorAll(".nav-link");
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+        navList.classList.remove("active");
+    
+}
+            
+
         });
     </script>
     <script src="./js/swiper-bundle.min.js"></script>
