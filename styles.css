@@ -170,6 +170,63 @@ body {
     background-color: var(--color_1);
     color: var(--color_3);
 }
+.pasltitle h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--color_1);
+}
+.pasl{
+    
+    display: flex;
+    justify-content:space-between;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.pasl .paslcol1, .paslcol2{
+    
+    width: 50%;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: var(--color_2);
+}
+.pasl li{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+   
+    
+    
+}
+.pasl .svg{
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 960px){
+    .pasl {
+        
+        width: 100%;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items:center;
+    }
+    .pasl .paslcol1, .paslcol2{
+        width: 100%;
+        align-items: center;
+        padding-left: 100px;
+    }
+    .pasl li{
+        padding: 10px;
+    }
+   
+}
+
 
 .apiemus{
     margin: 0;
@@ -205,7 +262,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 38px;
-    font-weight: 10;
+    font-weight: 500;
     color: var(--color_1);
 }
 
@@ -385,10 +442,8 @@ body {
  }
  .footer .col2{
     width: 28%;
-    list-style-type: circle;
     padding-left: 50px;
    padding-right: 20px;
-    
     text-align: left;
   }
   .footer .col3{
