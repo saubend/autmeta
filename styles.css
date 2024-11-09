@@ -17,9 +17,10 @@
     --color_5: rgb(238, 234, 234);
     --color_6: rgb(54, 119, 42);
     font-family: sans-serif;
-
+   
     
 }
+
 
 
 body {
@@ -220,6 +221,7 @@ body {
     height: 250px;
     width: 300px;
 }
+
 .pasl2 .pasl2-1, .pasl2-2, .pasl2-3 h3{
    
     padding-top: 50px;
@@ -228,26 +230,26 @@ body {
 }
 
 
-.pasl2 button{
+.pasl2 a{
+    position: relative;
     text-align: center;
-    color:var(--color_2);
-    margin-top: 80px;
+    top: 80px;
     cursor: pointer;
     border: none;
-    width: 100%;
     max-width: 200px;
    
     background-color: var(--color_5);
-    font-size: 20px;
+    font-size: 24px;
     padding: 15px;
     border-radius: 10px;
     
 }
-
-.pasl2 button:hover{
+.pasl2 a:link{
+    color:var(--color_2);
+}
+.pasl2 a:hover{
+    color:var(--color_3);
     transition: 0.1s ease;
-    top: 0px;
-    color: var(--color_3);
     background-color: var(--color_1);
     box-shadow: 0px 10px 15px var(--color_1);
 }
