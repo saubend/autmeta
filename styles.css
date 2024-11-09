@@ -194,21 +194,75 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     font-weight: 100;
-    color: var(--color_2);
+    color: var(--color_4);
 }
 .pasl li{
     display: flex;
     align-items: center;
     padding: 20px;
-   
-    
-    
-}
+   }
 .pasl .svg{
     padding-right: 10px;
 }
 
+.pasl2{
+    
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    max-width: 990px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pasl2 .pasl2-1, .pasl2-2, .pasl2-3{
+    text-align: center;
+    border: 1px solid var(--color_4);
+    height: 250px;
+    width: 300px;
+}
+.pasl2 .pasl2-1, .pasl2-2, .pasl2-3 h3{
+   
+    padding-top: 50px;
+    color: var(--color_1);
+    text-transform: uppercase;
+}
+
+
+.pasl2 button{
+    text-align: center;
+    color:var(--color_2);
+    margin-top: 80px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    max-width: 200px;
+   
+    background-color: var(--color_5);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.pasl2 button:hover{
+    transition: 0.1s ease;
+    top: 0px;
+    color: var(--color_3);
+    background-color: var(--color_1);
+    box-shadow: 0px 10px 15px var(--color_1);
+}
+
 @media screen and (max-width: 960px){
+    .pasl2{
+        width: 100%;
+        gap: 20px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items:center;
+       
+    }
+    
     .pasl {
         
         width: 100%;
