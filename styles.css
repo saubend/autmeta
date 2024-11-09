@@ -25,7 +25,7 @@
 
 body {
     min-height: 70vh;
-   
+   background-color:rgb(255, 255, 255);
 
 }
 
@@ -233,7 +233,7 @@ body {
 .pasl2 a{
     position: relative;
     text-align: center;
-    top: 80px;
+    top: 110px;
     cursor: pointer;
     border: none;
     max-width: 200px;
@@ -241,13 +241,14 @@ body {
     background-color: var(--color_5);
     font-size: 24px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     
 }
 .pasl2 a:link{
     color:var(--color_2);
 }
 .pasl2 a:hover{
+    
     color:var(--color_3);
     transition: 0.1s ease;
     background-color: var(--color_1);
