@@ -236,13 +236,10 @@ body {
     top: 120px;
     cursor: pointer;
     border: none;
-    max-width: 200px;
-   
     background-color: var(--color_5);
     font-size: 24px;
     padding: 15px;
     border-radius: 20px;
-    
 }
 .pasl2 a:link{
     color:var(--color_2);
