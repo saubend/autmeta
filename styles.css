@@ -245,7 +245,6 @@ body {
     color:var(--color_2);
 }
 .pasl2 a:hover{
-    
     color:var(--color_3);
     transition: 0.1s ease;
     background-color: var(--color_1);
