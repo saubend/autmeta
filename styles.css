@@ -171,6 +171,8 @@ body {
     background-color: var(--color_1);
     color: var(--color_3);
 }
+
+/*paslaugos*/
 .pasltitle h2{
     text-align: center;
     text-transform: uppercase;
@@ -195,7 +197,7 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     font-weight: 200;
-    color: var(--color_4);
+    color: var(--color_2);
 }
 .pasl li{
     display: flex;
@@ -217,7 +219,7 @@ body {
 }
 .pasl2 .pasl2-1, .pasl2-2, .pasl2-3{
     text-align: center;
-    border: 1px solid var(--color_4);
+    border: 1px solid var(--color_2);
     height: 250px;
     width: 300px;
 }
@@ -280,8 +282,73 @@ body {
     }
    
 }
+/*kontaktai*/
+
+.kontaktai-title h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--color_1);
+}
+
+.kont-main{
+    display: flex;
+    justify-content: space-between;
+    
+   max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.kont-col1{
 
 
+font-size: 18px;
+    font-weight: 300;
+    font-weight: 200;
+    color: var(--color_2);
+}
+.kont-col1 .laikas{
+    display: flex;
+    justify-content:space-between ;
+    width: 200px;
+}
+
+.kont-col1 .svg{
+    padding-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+.kont-main li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+.kont-main a{
+    color: var(--color_2);
+    border-bottom: 1px solid transparent;
+ }
+ .kont-main a:hover{
+    transition: 0.3s ease;
+    border-bottom: 1px solid;
+ }
+
+ @media screen and (max-width: 960px){
+    .kont-main{
+       flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items:center;
+        gap: 30px;
+        }
+        
+}
+/*apie mus*/
 .apiemus{
     margin: 0;
     padding: 70px 12%;
@@ -297,7 +364,7 @@ body {
 }
 
 .spacer{
-    padding: 20px;
+    padding: 30px;
 }
 
 .apiemus p{
@@ -426,6 +493,8 @@ body {
     color: var(--color_3);
     box-shadow: 0px 10px 15px var(--color_1);
  }
+
+ /*footer*/
 
  #footer{
     background-color: rgb(8, 34, 8);
