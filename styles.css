@@ -151,22 +151,21 @@ body {
     line-height: 30px;
 }
 
-.button2{
+.kont a{
+    font-size: 24px;
+    position: absolute;
     text-transform: uppercase;
-    margin-top: 40px;
-    cursor: pointer;
-    text-wrap: nowrap;
-    border: none;
-    width: 100%;
-    max-width: 150px;
-    position: relative;
+    left: 50%;
+    transform: translate(-50%, 50%);
     color: var(--color_2);
+    top: 360px;
     background-color: var(--color_5);
-    font-size: 20px;
     padding: 10px;
-    border-radius: 10px;    
+    border-radius: 12px;
+    
 }
-.button2:hover{
+
+.kont a:hover{
     transition: 0.1s ease;
     background-color: var(--color_1);
     color: var(--color_3);
@@ -197,7 +196,7 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     font-weight: 200;
-    color: var(--color_2);
+    color: var(--color_4);
 }
 .pasl li{
     display: flex;
@@ -219,7 +218,7 @@ body {
 }
 .pasl2 .pasl2-1, .pasl2-2, .pasl2-3{
     text-align: center;
-    border: 1px solid var(--color_2);
+    border: 1px solid var(--color_4);
     height: 250px;
     width: 300px;
 }
@@ -308,7 +307,7 @@ body {
 font-size: 18px;
     font-weight: 300;
     font-weight: 200;
-    color: var(--color_2);
+    color: var(--color_4);
 }
 .kont-col1 .laikas{
     display: flex;
@@ -330,7 +329,7 @@ font-size: 18px;
 }
 
 .kont-main a{
-    color: var(--color_2);
+    color: var(--color_4);
     border-bottom: 1px solid transparent;
  }
  .kont-main a:hover{
