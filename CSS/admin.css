@@ -50,3 +50,38 @@
     background-color: rgba(23, 83, 12, 1);
     color: white;
 }
+
+.tbl-full{
+width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: rgb(38, 78, 207);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+.btn-secondary{
+    background-color: rgb(21, 141, 27);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+.btn-delete{
+    background-color: rgb(182, 27, 27);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
