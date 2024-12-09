@@ -85,3 +85,10 @@ table tr td{
     color: white;
     text-decoration: none;
 }
+
+.success{
+    color: rgb(89, 228, 47);
+}
+.error{
+    color: rgb(231, 27, 27);
+}

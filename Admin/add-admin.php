@@ -59,11 +59,11 @@
       $res = mysqli_query($conn, $sql) or die (mysqli_error());
       if($res==true)
       {
-        $_SESSION['add'] = "Administratorius pridėtas sėkmingai";
+        $_SESSION['add'] = "<div class='success'>Administratorius pridėtas sėkmingai</div>";
         header("location:" .SITEURL.'Admin/manage-admin.php');
           }
       else{
-        $_SESSION['add'] = "Administratorius nepridėtas";
+        $_SESSION['add'] = "<div class='error'>Administratorius nepridėtas</div>";
         header("location:" .SITEURL.'Admin/manage-admin.php');
       }
       
