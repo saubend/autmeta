@@ -52,7 +52,7 @@ if($res == true)
                 <td><?php echo $full_name; ?></td>
                 <td><?php echo $username; ?></td>
                 <td>
-                    <a href="#" class="btn-secondary">Atnaujinti</a>
+                    <a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Atnaujinti</a>
                     <a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-delete">Ištrinti</a>
                 </td>
                 </tr>
