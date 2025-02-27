@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Update Admin</h1>
+        <h1>Atnaujinti administratorių</h1>
 
         <br><br>
 
@@ -31,7 +31,7 @@
 
 
 
-        <form action=" method="POST">
+        <form action="" method="POST">
 
             <table class="tbl-30">
             <tr>
@@ -41,10 +41,6 @@
                 <tr>
                     <td>Vartotojas</td>
                     <td><input type="text" name="username" value="<?php echo $username; ?>"></td>
-                </tr>
-                <tr>
-                    <td>Slaptažodis</td>
-                    <td><input type="password" name="password" value=""></td>
                 </tr>
                 <tr>
                     <td colspan="2">
@@ -61,10 +57,30 @@
 
     if(isset($_POST['submit']))
     {
-        //echo "button clicked";
-    }
+        $id=$_POST['id'];
+        $full_name=$_POST['full_name'];
+        $username=$_POST['username'];
+
+        $sql="UPDATE tbl_admin SET
+        full_name='$full_name',
+        username='$username' 
+        WHERE id='$id'
+        ";    
 
 
+        $res = mysqli_query($conn, $sql);
+        if($res==true)
+        {
+            $_SESSION['update'] = "<div class='success'>Atnaujinta sėkmingai</div>";
+            header('location:'.SITEURL.'admin/manage-admin.php');
+        }
+            else
+        {
+            $_SESSION['update'] = "<div class='error'>Atnaujinti nepavyko</div>";
+            header('location:'.SITEURL.'admin/manage-admin.php');
+        }
+
+    }    
 ?>
 
 <?php include('partials/footer.php'); ?>

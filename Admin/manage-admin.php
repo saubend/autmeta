@@ -17,6 +17,18 @@
             unset ($_SESSION['delete']);
         }
 
+        if(isset($_SESSION['update']))
+        {
+            echo $_SESSION['update'];
+            unset ($_SESSION['update']);
+        }
+
+        if(isset($_SESSION['user-not-found']))
+        {
+            echo $_SESSION['user-not-found'];
+            unset ($_SESSION['user-not-found']);
+        }
+        
         ?>
 <br><br>
 
@@ -52,7 +64,9 @@ if($res == true)
                 <td><?php echo $full_name; ?></td>
                 <td><?php echo $username; ?></td>
                 <td>
+                    
                     <a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Atnaujinti</a>
+                    <a href="<?php echo SITEURL; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Keisti slaptažodį</a>
                     <a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-delete">Ištrinti</a>
                 </td>
                 </tr>
