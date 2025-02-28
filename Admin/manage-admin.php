@@ -28,7 +28,16 @@
             echo $_SESSION['user-not-found'];
             unset ($_SESSION['user-not-found']);
         }
-        
+        if(isset($_SESSION['pws-not-match']))
+        {
+            echo $_SESSION['pws-not-match'];
+            unset ($_SESSION['pws-not-match']);
+        }
+        if(isset($_SESSION['change-pws']))
+        {
+            echo $_SESSION['change-pws'];
+            unset ($_SESSION['change-pws']);
+        }
         ?>
 <br><br>
 

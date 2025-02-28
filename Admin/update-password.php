@@ -69,11 +69,33 @@
 
                 if($count==1)
                 {
-                    echo "vartotojas rastas";
+                    if($new_password==$confirm_password)
+                    {
+                        $sql2="UPDATE tbl_admin SET
+                            password='$new_password'
+                            WHERE id=$id
+                            ";
+                        $res2=mysqli_query($conn, $sql2);
+                        if($res2==true)
+                        {
+                            $_SESSION['change-pws'] = "<div class='success'>Slaptažodis pakeistas</div>";
+                            header('location:'.SITEURL.'admin/manage-admin.php');        
+                        }
+                        else
+                        {
+                            $_SESSION['change-pws'] = "<div class='error'>Slaptažodžio pakeisti nepavyko</div>";
+                            header('location:'.SITEURL.'admin/manage-admin.php');
+                        }
+                    }
+                    else
+                    {
+                        $_SESSION['pws-not-match'] = "<div class='error'>Slaptažodis nesutampa</div>";
+                        header('location:'.SITEURL.'admin/manage-admin.php');
+                    }
                 }
                 else
                 {
-                    $_SESSION['user-not-found'] = "<div class='error'>Vartotojas nerastas</div>";
+                    $_SESSION['user-not-found'] = "<div class='error'>Neteisingas slaptažodis</div>";
                     header('location:'.SITEURL.'admin/manage-admin.php');
                 }
             }
